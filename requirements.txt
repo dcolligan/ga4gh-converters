@@ -1,0 +1,10 @@
+# This file lists requirements needed to run the executables shipped
+# by ga4gh/ga4gh-converters.
+#
+# These requirements are read directly into setup.py, so specify them
+# in the order that they should be in in setup.py
+ga4gh_common
+ga4gh_schemas
+ga4gh_client
+
+pysam
